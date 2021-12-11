@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    align-content: center;
+    margin: 30px;
+    padding: 15px;
+   
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+#navbar a:hover{
+    background-color:gray;
+
+}
+
+#hero-section{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    margin: 30px;
+    padding: 15px;
+    height: 100%;
+}
+
+#heroimg {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+#herotext {
+
+    color:black;
+    /* background-color:#a1765970; */
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    top:8%;
+    left:35%;
+}
+
+
+#title{
+    margin: 5px;
+    padding : 10px;
+   font-size: 25px;
+   text-align :center;
+
+}
+
+#cardholder{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+
+}
+
+.card{
+    border: 2px solid black;
+    border-radius:5px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenlys;
+   
+    background-color: rgb(243, 235, 223);
+   
+}
+
+.cardimg {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius:5px;
+  
+
+}
+
+.title {
+
+margin: auto;
+    padding: 10px;
+    
+  
+
+}
+
+.para{
+    margin: 5px;
+    padding: 5px;
+}
+
+#footer{
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+#about{  
+    margin: 30px;
+    padding: 10px;
+    font-size:25px;
+}
+
+#aboutpara{  
+    margin: 30px;
+    padding: 10px;
+}
+
+.container{
+    background-color: beige;
+    text-align:center;
+}
+
+#contact{
+
+    margin: 30px;
+    padding: 10px;
+    font-size:25px;
+
+}
+
+#form{
+    margin: 20px;
+    padding: 10px;    
+}
+
+#form input{
+    margin: 15px;
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius:8px;
+}
+
+
+#form textarea{
+    margin: 15px;
+    padding: 5px;
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius:8px;
+}
+
+#form button{
+    margin: 15px;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    
+    border: 2px solid black;
+    border-radius:8px;
+    font-size:20px;
+
+}
